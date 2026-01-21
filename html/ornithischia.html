@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css\styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinopedia</title>
+</head>
+<body>    
+    <header>
+        <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>  
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+            <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+            <a href="aboutus.html" class="w3-bar-item w3-button">About Us</a>
+            <a href="references.html" class="w3-bar-item w3-button">References</a>
+            <a href="#" class="w3-bar-item w3-button">Contacts</a>
+        </div>        
+        <h1>Ornithischia</h1>
+    </header>
+    <!-- Navigation bar with the dinosaur families (done by Elena)-->
+    <nav>
+        <ul class="tabs">
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><a href="javascript:void(0)">Ornithischia</a></li>
+            <li><a href="sauropod.html">Sauropods</a></li>
+            <li><a href="theropoda.html">Theoropoda</a></li>
+        </ul>
+
+    </nav>
+    <!-- List of all the dinosaur names within this family (done by Ari)-->
+<section>
+        <!-- Row 1 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="triceratops">Triceratops</div>
+                <img src="../photos/Ornithischia/Triceratops1.jpg" alt="Triceratops" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="stegosaurus">Stegosaurus</div>
+                <img src="../photos/Ornithischia/Stegosaurus1.jpg" alt="Stegosaurus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 2 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="ankylosaurus">Ankylosaurus</div>
+                <img src="../photos/Ornithischia/Ankylosaurus1.jpg" alt="Ankylosaurus" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="parasaurolophus">Parasaurolophus</div>
+                <img src="../photos/Ornithischia/Parasaurolophus1.PNG" alt="Parasaurolophus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 3 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="iguanodon">Iguanodon</div>
+                <img src="../photos/Ornithischia/Iguanodon1.jpg" alt="Iguanodon" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="shantungosaurus">Shantungosaurus</div>
+                <img src="../photos/Ornithischia/Shantungosaurus1.jpg" alt="Shantungosaurus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 4 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="pachycephalosaurus">Pachycephalosaurus</div>
+                <img src="../photos/Ornithischia/Pachycephalosaurus1.jpg" alt="Pachycephalosaurus" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="pachyrhinosaurus">Pachyrhinosaurus</div>
+                <img src="../photos/Ornithischia/Pachyrhinocaurus1.PNG" alt="Pachyrhinosaurus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 5 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="hypsilophodon">Hypsilophodon</div>
+                <img src="../photos/Ornithischia\Hypsilophodon1.jpg" alt="Hypsilophodon" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="kentrosaurus">Kentrosaurus</div>
+                <img src="../photos/Ornithischia/Kentrosaurus1.PNG" alt="Kentrosaurus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Dino Info Sections -->
+        <div class="dinoInfo" id="triceratopsInfo">
+            <h2>Triceratops horridus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Triceratops horridus</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 8-9 m (26-30 ft)</li>
+                            <li><b>Height:</b> ~2.5-3 m at hip (8-10 ft)</li>
+                            <li><b>Weight:</b> 6-12 tonnes (6.6-13.2 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Ceratopsia; Ceratopsidae; Chasmosaurinae; Triceratops</li>
+                            <li><b>Location / Formation:</b> USA (Hell Creek, Lance, Scollard Formations)</li>
+                            <li><b>Time:</b> Late Cretaceous (Maastrichtian), ~68-66 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia/Triceratops2.jpg" alt="Triceratops" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Triceratops is the most iconic and one of the last ceratopsian dinosaurs. Known for its massive skull featuring three horns and a solid bony frill, it was a powerful, rhino-like herbivore and a contemporary and likely prey item of Tyrannosaurus rex at the very end of the Cretaceous.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first known specimen was a pair of brow horns found near Denver, Colorado, in 1887, which were initially mistaken for those of a giant bison. Othniel Charles Marsh formally named Triceratops horridus ("horrid three-horned face") in 1889. Hundreds of specimens have since been found, making it one of the most common and well-known dinosaurs from its time.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Triceratops is a highly derived member of the Chasmosaurinae, a subfamily of ceratopsids typically characterized by large frills with open fenestrae (windows). Interestingly, Triceratops evolved a solid frill, a feature more common in the other subfamily, Centrosaurinae. It represents the culmination of ceratopsian evolution in terms of size and robustness just before the K-Pg extinction.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Its most prominent feature was its enormous skull, which could reach over 2.5 meters in length, making it one of the largest skulls of any land animal. It bore a short nose horn and two long, robust brow horns. The solid bone frill extended from the back of the skull. Its body was barrel-shaped and elephantine, with four sturdy, column-like legs.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It inhabited the coastal floodplains of western North America, likely living in herds for protection. Its jaws were tipped with a sharp beak for cropping vegetation, followed by batteries of shearing teeth for processing tough, fibrous plants like palms and cycads. Its horns and frill were used primarily for defense against predators like T. rex and for intraspecific combat and display, with fossil evidence showing healed horn injuries.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Triceratops is a cornerstone of dinosaur paleontology and pop culture. Its three-horned face is instantly recognizable worldwide. As one of the last non-avian dinosaurs, its fossils are crucial for understanding the final dinosaur communities on Earth. The ongoing debate about whether Torosaurus is a mature growth stage of Triceratops makes it central to studies of dinosaur ontogeny and taxonomy.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="stegosaurusInfo">
+            <h2>Stegosaurus stenops</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Stegosaurus stenops</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 7-9 m (23-30 ft)</li>
+                            <li><b>Height:</b> ~3.5-4 m at hip (11.5-13 ft)</li>
+                            <li><b>Weight:</b> 4-5 tonnes (4.4-5.5 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Stegosauria; Stegosauridae; Stegosaurus</li>
+                            <li><b>Location / Formation:</b> USA (Morrison Formation)</li>
+                            <li><b>Time:</b> Late Jurassic (Kimmeridgian-Tithonian), ~155-150 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia/Stegosaurus2.jpg" alt="Stegosaurus" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Stegosaurus is the archetypal plated dinosaur, famous for the distinctive double row of large, kite-shaped bony plates along its back and the lethal pair of spikes (the "thagomizer") on its tail. It is one of the most easily identifiable dinosaurs and a hallmark of the Jurassic Period.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first fossils were discovered during the "Bone Wars" of the late 19th century. Othniel Charles Marsh named Stegosaurus armatus in 1877, though the more complete S. stenops (described in 1887) is now the type species. Early reconstructions placed the plates flat on its back like shingles; their correct upright, alternating arrangement was determined later.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Stegosaurus is the namesake of the Stegosauria, a group of thyreophoran dinosaurs characterized by rows of plates and spikes. It is one of the largest and last members of this lineage, which was more diverse in the Early to Middle Jurassic. Stegosaurs were largely replaced by ankylosaurs in the Cretaceous.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Stegosaurus had a small, low-slung head with a simple, beaked mouth and weak teeth, suggesting it ate soft vegetation. Its forelimbs were much shorter than its hindlimbs, giving it a characteristic, low-slung posture with its head close to the ground and its hips held high. Its most famous features were the 17-22 large, thin, upright plates (likely covered in keratin for color) and the four, muscularly controlled tail spikes.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It was a low-level browser in the semi-arid floodplains of the Morrison Formation, likely feeding on ferns, cycads, and low-growing shrubs. Its plates are now thought to have served primarily for display and thermoregulation (as radiators). The thagomizer, however, was a formidable defensive weapon, capable of delivering powerful, swinging blows to the legs of predators like Allosaurus, as evidenced by tail-spike injuries found in allosaur vertebrae.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Stegosaurus is a cultural icon of the dinosaur world and a primary example of bizarre dinosaurian morphology. It has driven scientific debates on function (plates for defense, display, or thermoregulation?), posture, and intelligence (it famously had a brain the size of a walnut). It remains the definitive example of the stegosaur group and a testament to the strange and wonderful forms evolution can produce.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="ankylosaurusInfo">
+            <h2>Ankylosaurus magniventris</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Ankylosaurus magniventris</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 6-8 m (20-26 ft)</li>
+                            <li><b>Height:</b> ~1.7 m at hip (5.6 ft)</li>
+                            <li><b>Weight:</b> 4.8-8 tonnes (5.3-8.8 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Ankylosauria; Ankylosauridae; Ankylosaurinae; Ankylosaurus</li>
+                            <li><b>Location / Formation:</b> USA & Canada (Hell Creek, Lance, Scollard Formations)</li>
+                            <li><b>Time:</b> Late Cretaceous (Maastrichtian), ~68-66 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia\Ankylosaurus2.jpg" alt="Ankylosaurus" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Ankylosaurus is the archetypal armored dinosaur, famous for its heavy, bony plates and massive tail club. As one of the last and largest of the ankylosaurids, it was a walking fortress and a contemporary of Tyrannosaurus rex, representing the peak of thyreophoran (shield-bearing) dinosaur defense.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first fossil remains (skull fragments, vertebrae, ribs, and armor) were discovered in 1906 by Barnum Brown in the Hell Creek Formation of Montana. Brown described the genus and species, Ankylosaurus magniventris ("great-bellied fused lizard"), in 1908. Due to its rare and fragmentary fossils, its full appearance has been reconstructed based on more complete relatives.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Ankylosaurus is the namesake of the Ankylosauridae family, a derived group within the Ankylosauria. It was among the last surviving members of a lineage that had been globally successful since the Jurassic. Its evolution perfected the "tank" body plan, with extensive dermal armor, a broad, low-slung body, and a weaponized tail.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Its body was covered in thick, oval osteoderms (bony plates) fused into the skin, with rows of spikes along its sides. Its skull was wide, low, and heavily reinforced, with two pairs of horns at the back. Its most iconic weapon was a massive, bony club at the end of its tail, formed from fused osteoderms and swung by powerful tail muscles. Its build was broad and squat, with short, powerful limbs.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                This dinosaur inhabited forested coastal floodplains. It was a low-level browser, using its simple, leaf-shaped teeth to crop ferns and low-growing vegetation. Its size and armor made it virtually impervious to predators as an adult. The tail club was a powerful defensive weapon capable of shattering the bones of a predator's leg or skull, serving as a potent deterrent to even the largest theropods.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Ankylosaurus is the ultimate symbol of dinosaurian defense. Its formidable appearance has made it a staple of popular dinosaur media. Scientifically, it represents the final, most heavily armored stage of ankylosaurid evolution. Its rare fossils are key to understanding the diversity of the last dinosaur ecosystems, and its tail club remains one of the most impressive specialized weapons in the animal kingdom.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="parasaurolophusInfo">
+            <h2>Parasaurolophus walkeri</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Parasaurolophus walkeri</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 9-10 m (30-33 ft)</li>
+                            <li><b>Height:</b> ~2.5 m at hip (8 ft)</li>
+                            <li><b>Weight:</b> 2.5-3 tonnes (2.8-3.3 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Ornithopoda; Hadrosauridae; Lambeosaurinae; Parasaurolophus</li>
+                            <li><b>Location / Formation:</b> Canada (Dinosaur Park Formation)</li>
+                            <li><b>Time:</b> Late Cretaceous (Campanian), ~76.5-75 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia\Parasaurolophus2.jpg" alt="Parasaurolophus" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Parasaurolophus is one of the most visually striking dinosaurs, instantly recognizable by its long, curved, tubular cranial crest that extends backward from its skull. This hadrosaur, or "duck-billed dinosaur," is a classic example of elaborate dinosaur ornamentation and is famed for the potential musical function of its crest.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first specimen was discovered in 1920 in Alberta, Canada, by a field party from the University of Toronto. It was named and described by William Parks in 1922. The name means "like Saurolophus" (another crested dinosaur), due to an initial mistaken belief that their crests were similar. Several well-preserved skulls have been found.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Parasaurolophus is a member of the Lambeosaurinae, the subfamily of hadrosaurs characterized by hollow, bony cranial crests. Its extremely long, tubular crest represents one of the most extreme specializations within this group, which evolved complex crests likely used for communication, display, and possibly thermoregulation.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Its most prominent feature was its long, backward-curving crest, which contained nasal passages that looped from the nostrils up to the tip of the crest and back down to the throat. It had a typical hadrosaur body: bipedal/quadrupedal, with a long, stiff tail for balance, and a broad, toothless beak followed by complex dental batteries for grinding plants.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It lived in lush, riverine environments. As a hadrosaur, it was a highly efficient herbivore capable of processing a wide variety of vegetation. The hollow crest is hypothesized to have been a resonating chamber, allowing it to produce low-frequency sounds for communication within herds, possibly for signaling danger or mating. The crest also may have served as a visual display structure.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Parasaurolophus is an icon of dinosaur weirdness and a key subject in paleobiological studies. Its crest has been the focus of extensive research in biomechanics and paleoacoustics, with scientists creating physical and digital models to recreate its possible sounds. It stands as a prime example of how dinosaurs used sophisticated structures for social communication, bringing their ancient world to life in a unique and audible way.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="iguanodonInfo">
+            <h2>Iguanodon bernissartensis</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Iguanodon bernissartensis</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> ~9-10 m (30-33 ft)</li>
+                            <li><b>Height:</b> ~2.5-3 m at hip (8-10 ft)</li>
+                            <li><b>Weight:</b> 3-4 tonnes (3.3-4.4 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Ornithopoda; Iguanodontia; Iguanodontidae; Iguanodon</li>
+                            <li><b>Location / Formation:</b> Belgium, England, Germany (Wealden Group)</li>
+                            <li><b>Time:</b> Early Cretaceous (Barremian-Aptian), ~126-122 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia\Iguanodon2.jpg" alt="Iguanodon" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Iguanodon was one of the first dinosaurs ever scientifically recognized and named. It is a historically monumental genus that helped shape early understanding of dinosaurs as large, unique reptiles. Known for its versatile thumb spike and shift from bipedal to quadrupedal posture, it was a dominant, successful herbivore of the Early Cretaceous.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first teeth were discovered in England in 1822 by Mary Ann Mantell and identified by her husband, Gideon Mantell, who named it Iguanodon ("iguana tooth") in 1825. The landmark discovery came in 1878 in a Belgian coal mine at Bernissart, where over 30 nearly complete skeletons were unearthed, providing the first complete picture of a large dinosaur.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Iguanodon is the type genus for the Iguanodontia, a major group of ornithopods that were precursors to the later hadrosaurs. It represents a key transitional form in ornithopod evolution, more derived and larger than earlier forms like Hypsilophodon, but lacking the advanced dental batteries and complex crests of the hadrosaurs.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Iguanodon had a robust body capable of moving on two or four legs. Its head featured a broad, toothless beak for cropping plants and batteries of tightly packed cheek teeth for grinding. Its most famous feature was a large, conical thumb spike on each hand, originally mistaken for a nose horn. This spike was likely used for defense, foraging, or intraspecific combat. Its stiff tail provided balance when bipedal.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It inhabited forested floodplains and coastal regions of Europe. As a generalist herbivore, it could browse on a wide variety of vegetation from ground level to several meters high. Its ability to shift between bipedal and quadrupedal stances gave it great feeding flexibility. It likely lived in herds, as suggested by the mass burial at Bernissart.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Iguanodon holds an irreplaceable place in the history of science. The Bernissart skeletons were mounted in life-like, active poses at the Royal Belgian Institute of Natural Sciences, revolutionizing public and scientific perception of dinosaurs. It was one of the three genera used to define Dinosauria. Its story is foundational to paleontology.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="shantungosaurusInfo">
+            <h2>Shantungosaurus giganteus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Shantungosaurus giganteus</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 14.7-16.6 m (48-54 ft)</li>
+                            <li><b>Height:</b> ~5-6 m at hip (16-20 ft)</li>
+                            <li><b>Weight:</b> 13-16 tonnes (14-18 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Ornithopoda; Hadrosauridae; Saurolophinae; Shantungosaurus</li>
+                            <li><b>Location / Formation:</b> China (Wangshi Group)</li>
+                            <li><b>Time:</b> Late Cretaceous (Campanian), ~83-76 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia\Shantungosaurus2.jpg" alt="Shantungosaurus" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Shantungosaurus is the largest known hadrosaurid, or "duck-billed dinosaur," and one of the largest ornithischian dinosaurs ever discovered. This Asian giant was a colossal, flat-headed herbivore that represents the extreme of size achievable within the hadrosaur family.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first fossils were discovered in the 1960s in Shandong Province, China. It was formally described in 1973 by Chinese paleontologist Hu Chengzhi. The holotype consists of a partial but very large skeleton. Subsequent discoveries have provided more material, solidifying its status as a behemoth.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Shantungosaurus is a member of the Saurolophinae (or Hadrosaurinae), the subfamily of hadrosaurs that typically lacked hollow crests. It is closely related to North American hadrosaurs like Edmontosaurus, but evolved to a much larger size in Asia. Its gigantism demonstrates convergent evolution, as titanosaur sauropods, the other group of super-large herbivores, were rare in its ecosystem.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It had the classic hadrosaur build but on a gargantuan scale: a broad, flat head with a toothless duck-like beak, powerful jaws with immense dental batteries containing over 1,500 teeth, a deep, barrel-shaped torso, and strong limbs. Its tail was long and stiff. Unlike its lambeosaurine relatives, it lacked a bony cranial crest, though it may have had a fleshy comb.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                This giant inhabited floodplain environments. Its size would have been its primary defense against contemporary predators like tyrannosaurids. As a hadrosaur, it was an incredibly efficient processor of tough, fibrous vegetation. Its sheer mass and herd behavior (suggested by bonebeds) would have made it a major force in its ecosystem, consuming vast amounts of plant matter and shaping the landscape.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Shantungosaurus redefines the upper limits of hadrosaur size. It proves that ornithischian dinosaurs could rival medium-sized sauropods in mass, filling a similar mega-herbivore niche in ecosystems where sauropods were absent or declining. It is a keystone genus for understanding Late Cretaceous Asian dinosaur communities and the evolutionary potential of hadrosaurs.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="pachycephalosaurusInfo">
+            <h2>Pachycephalosaurus wyomingensis</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Pachycephalosaurus wyomingensis</li>
+                            <li><b>Diet:</b> Herbivore/Omnivore</li>
+                            <li><b>Length:</b> ~4.5 m (15 ft)</li>
+                            <li><b>Height:</b> ~1.5-2 m at hip (5-6.5 ft)</li>
+                            <li><b>Weight:</b> ~370-450 kg (820-990 lbs)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Pachycephalosauria; Pachycephalosauridae; Pachycephalosaurus</li>
+                            <li><b>Location / Formation:</b> USA (Hell Creek, Lance Formations)</li>
+                            <li><b>Time:</b> Late Cretaceous (Maastrichtian), ~70-66 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia/Pachycephalosaurus2.PNG" alt="Pachycephalosaurus" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Pachycephalosaurus is the largest and most famous of the "bone-headed" dinosaurs, instantly recognizable by its incredibly thick, dome-shaped skull roof. This unique structure has long been at the center of debates about dinosaur behavior, specifically regarding head-butting combat.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first fragmentary remains were described as early as 1859. The iconic dome was found in 1938 in Wyoming and studied by Charles W. Gilmore, who named the new species Pachycephalosaurus grangeri. The species P. wyomingensis was named earlier, in 1931, based on a smaller spike. Later research consolidated these into the single species P. wyomingensis.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Pachycephalosaurus is the namesake of the Pachycephalosauria, a group of bipedal ornithischians within the larger Marginocephalia clade (which also includes ceratopsians). It represents the pinnacle of the trend toward extreme cranial dome thickening seen in this lineage, which evolved over the course of the Cretaceous period.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Its most prominent feature was a solid, bony dome atop its skull, up to 25 cm (10 inches) thick. The dome was surrounded by a ring of bony knobs and spikes at the rear. It had a short snout with a pointed beak and small, leaf-shaped teeth. It was bipedal, with a stout body, strong hind limbs, and a heavy, rigid tail likely used for balance.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It lived in coastal floodplain forests. Its diet is debated; its small teeth suggest it ate a mix of plants, seeds, fruits, and possibly insects. The function of its dome is iconic. While once thought to be used for dramatic head-to-head ramming like bighorn sheep, current research suggests the dome and neck structure were better suited for flank-butting (hitting the side of an opponent) or for display and species recognition, with injuries on domes supporting some form of combat.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Pachycephalosaurus is the definitive "dome-headed" dinosaur and a staple of popular dinosaur lore. It has driven extensive research into dinosaur biomechanics, behavior, and intraspecific combat. The debate over its head-butting behavior is a classic case study in paleobiological inference, demonstrating how scientists interpret function from form.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="pachyrhinosaurusInfo">
+            <h2>Pachyrhinosaurus canadensis</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Pachyrhinosaurus canadensis</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 6-8 m (20-26 ft)</li>
+                            <li><b>Height:</b> ~2-2.5 m at hip (6.5-8 ft)</li>
+                            <li><b>Weight:</b> 2-4 tonnes (2.2-4.4 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Ceratopsia; Ceratopsidae; Centrosaurinae; Pachyrhinosaurus</li>
+                            <li><b>Location / Formation:</b> Canada (Horseshoe Canyon, St. Mary River Formations)</li>
+                            <li><b>Time:</b> Late Cretaceous (Campanian-Maastrichtian), ~73.5-69 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia/Pachyrhinocaurus2.PNG" alt="Pachyrhinosaurus" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Pachyrhinosaurus is a distinctive centrosaurine ceratopsian famous for replacing the large nasal horn common in its relatives with a massive, flattened, bony boss (or "pads") on its nose and above its eyes. It was a herd-dwelling herbivore known from spectacular bonebeds containing thousands of individuals.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first fossils were discovered in 1946 by Charles M. Sternberg in Alberta, Canada. It was described in 1950 by Sternberg. The most significant discoveries came decades later with the uncovering of immense bonebeds in Alberta (the Pipestone Creek and Wapiti River beds) and Alaska, which have yielded a wealth of information on growth, variation, and herd structure.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Pachyrhinosaurus is a highly derived member of the Centrosaurinae, the subfamily of ceratopsids known for elaborate nasal horns and ornate frills. It represents an evolutionary departure where the horns were replaced by rough, thickened bosses, which may have supported keratinous pads or structures. Three species are recognized, showing variation in boss and frill ornamentation.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It had a large skull with a prominent, flattened nasal boss and a separate boss over each eye. Its frill was large and decorated with an array of horns, spikes, and curl-like processes, with patterns unique to each species. Like all ceratopsids, it had a parrot-like beak, shearing dental batteries, a bulky body, and quadrupedal posture.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It inhabited coastal plain and river delta environments, migrating in enormous herds, as evidenced by the mass death assemblages. It was a low-level browser, cropping vegetation with its beak. The bony facial bosses were likely used for head-pushing or flank-butting contests within the herd for dominance or mating rights, with the frill serving as a display structure.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The immense bonebeds of Pachyrhinosaurus have made it one of the best-understood ceratopsians. They provide unparalleled insight into ceratopsian social behavior, population dynamics, growth, and paleopathology. Its unique "boss-faced" anatomy demonstrates the diversity of structures within horned dinosaurs and has made it a popular subject in modern documentaries and media.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="hypsilophodonInfo">
+            <h2>Hypsilophodon foxii</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Hypsilophodon foxii</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 1.5-2 m (5-6.5 ft)</li>
+                            <li><b>Height:</b> ~0.5 m at hip (1.6 ft)</li>
+                            <li><b>Weight:</b> 20 kg (44 lbs)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Ornithopoda; Hypsilophodon</li>
+                            <li><b>Location / Formation:</b> England (Wessex Formation)</li>
+                            <li><b>Time:</b> Early Cretaceous (Barremian), ~130-125 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia/Hypsilophodon2.PNG" alt="Hypsilophodon" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Hypsilophodon was a small, agile, and primitive ornithopod dinosaur. For much of the 20th century, it was famously and incorrectly hypothesized to be a tree-climbing dinosaur. It is now understood as a swift, ground-dwelling herbivore, a classic example of a small, cursorial dinosaur that filled an ecological niche similar to a deer or antelope.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first remains were discovered in 1849 on the Isle of Wight. Initially, it was misidentified as a young Iguanodon. It was given its own name, Hypsilophodon foxii, in 1869 by the influential paleontologist Thomas Huxley. The species name honors the Reverend William Fox, a key fossil collector on the Isle of Wight.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Hypsilophodon is a basal (early) member of the Ornithopoda, the group that would later give rise to the giant iguanodonts and hadrosaurs. It lies outside the more derived Iguanodontia, representing a conservative, small-bodied lineage that persisted from the Late Jurassic into the Early Cretaceous with a relatively unchanged body plan.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It was a lightly built, bipedal dinosaur built for speed. It had long, slender hind limbs, a stiffened tail for balance, and shorter arms with five-fingered hands. Its skull was small with a horny beak at the front and cheek teeth adapted for grinding plant material. Its most notable feature was its feet, which had four toes; the structure of these toes led to the mistaken tree-climbing theory.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Hypsilophodon lived in the forested floodplains and lagoonal environments of the Wessex Formation. Its anatomy indicates it was a fast runner, likely using speed and agility as its primary defense against contemporary predators like Neovenator. It was a selective browser, feeding on low-growing ferns, cycads, and possibly the newly evolving flowering plants (angiosperms).
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Hypsilophodon is historically significant for correcting a major misconception about dinosaur behavior and ecology. The rejection of the "tree-dwelling dinosaur" hypothesis in the 1970s was an important step in re-evaluating dinosaurs as dynamic, terrestrial animals. Today, it serves as the model for understanding small, agile, basal ornithopods.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <div class="dinoInfo" id="kentrosaurusInfo">
+            <h2>Kentrosaurus aethiopicus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Kentrosaurus aethiopicus</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> 4-5 m (13-16.5 ft)</li>
+                            <li><b>Height:</b> ~1.5 m at hip (5 ft)</li>
+                            <li><b>Weight:</b> 700-1,600 kg (1,500-3,500 lbs)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Ornithischia; Stegosauria; Stegosauridae; Kentrosaurus</li>
+                            <li><b>Location / Formation:</b> Tanzania (Tendaguru Formation)</li>
+                            <li><b>Time:</b> Late Jurassic (Kimmeridgian-Tithonian), ~155-150 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Ornithischia/Kentrosaurus2.PNG" alt="Kentrosaurus" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Kentrosaurus is a smaller, African relative of Stegosaurus, famed for its impressive and numerous defensive spikes. While it had small plates on its neck and shoulders, its primary armament was a pair of long shoulder spikes and a tail adorned with multiple pairs of large, lethal spikes, making it one of the most formidable-looking stegosaurs.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Discovered in the prolific Tendaguru fossil beds of German East Africa (now Tanzania) between 1909 and 1912 by German paleontologist Edwin Hennig. The name, meaning "spiked lizard," was given in 1915. Hundreds of bones were recovered, though a complete, articulated skeleton has never been found, leading to some debate over the exact arrangement of its plates and spikes.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Kentrosaurus is a member of the Stegosauridae, closely related to but more primitive than Stegosaurus. It represents a different morphological strategy within the family, emphasizing long, sharp spikes over broad, upright plates for defense and display. This highlights the diversity within stegosaurs, which had a near-global distribution during the Jurassic.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It had a typical stegosaur body plan: a small head, long, low-slung torso, short forelimbs, and a posture with the hips much higher than the shoulders. Along its neck and anterior back were small, oval plates. On its shoulders sat a pair of long, forward-pointing spikes. The latter half of its back and tail bore at least five pairs of large, sharp spikes (up to 60 cm long), with the tail likely ending in a Stegosaurus-style "thagomizer" of two pairs.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It inhabited the coastal mangrove and lagoon environments of the Tendaguru Formation, which was rich in giant sauropods like Giraffatitan. As a low browser, it fed on ground vegetation. Its array of spikes provided formidable passive defense. The shoulder spikes could deter frontal attacks, while the tail was a highly flexible, active weapon that could be swung with great force at the legs of large predators like Allosaurus or Ceratosaurus.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Kentrosaurus is a classic example of the unique dinosaur fauna found in the Tendaguru beds, which paralleled the Morrison Formation of North America. Its spiky appearance makes it a fan favorite and a key genus for understanding stegosaur diversity and defensive adaptations. It demonstrates that even within a single family, dinosaurs could evolve dramatically different solutions to the same problems of defense and display.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+    </section>
+    
+    <footer id="footer">
+        <p>Created by I2WT group 06, last update 20/1/26</p>
+        <p><b>DISCLAIMER:</b><br>
+            This site is purely for educational and recreational purposes only and any Information presented is not stated as fact and is subject to change.</p>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script>
+        const allDinoBoxes = document.querySelectorAll('.dinoBox');
+        const allDinoInfos = document.querySelectorAll('.dinoInfo');
+        const dinoSection = document.querySelector('section');
+        const footer = document.getElementById('footer');
+
+        function hideAllExceptInfo() {
+            const allSectionChildren = dinoSection.children;
+            for (let child of allSectionChildren) {
+                if (!child.classList.contains('dinoInfo')) {
+                    child.style.display = 'none';
+                }
+            }
+            if (footer) footer.style.display = 'none';
+        }
+        function showAllContent() {
+            const allSectionChildren = dinoSection.children;
+            for (let child of allSectionChildren) {
+                child.style.display = '';
+            }
+            if (footer) footer.style.display = '';
+            
+            allDinoInfos.forEach(info => {
+                info.style.display = 'none';
+            });
+            document.querySelectorAll('.accordionContent').forEach(content => {
+                content.classList.remove('accordionActive');
+            });
+            document.querySelectorAll('.accordionHeader').forEach(header => {
+                header.classList.remove('accordionActive');
+            });
+        }
+        function showDinoInfo(dinoId) {
+            hideAllExceptInfo();
+            const infoToShow = document.getElementById(dinoId + 'Info');
+            if (infoToShow) {
+                infoToShow.style.display = 'block';
+            }
+        }
+        allDinoBoxes.forEach(box => {
+            box.addEventListener('click', function() {
+                const dinoNameElement = this.querySelector('.dinoName');
+                const dinoType = dinoNameElement.getAttribute('data-dino');
+                showDinoInfo(dinoType);
+            });
+        });
+        const backButtons = document.querySelectorAll('.backBtn');
+        backButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                showAllContent();
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const accordionHeaders = document.querySelectorAll('.accordionHeader');
+            
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const isActive = this.classList.contains('accordionActive');
+                    if (isActive) {
+                        this.classList.remove('accordionActive');
+                        content.classList.remove('accordionActive');
+                    } else {
+                        this.classList.add('accordionActive');
+                        content.classList.add('accordionActive');
+                    }
+                });
+            });
+        });
+    </script>
+    <!--Script for the sidebar -->
+    <script>
+    function openRightMenu() {
+    document.getElementById("rightMenu").style.display = "block";
+    }
+
+    function closeRightMenu() {
+    document.getElementById("rightMenu").style.display = "none";
+    }
+    </script>
+</body>
+</html>

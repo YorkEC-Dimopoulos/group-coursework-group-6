@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css\styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinopedia</title>
+</head>
+<body>
+    <!--Title of page-->
+    <header>
+        <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>  
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+            <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+            <a href="aboutus.html" class="w3-bar-item w3-button">About Us</a>
+            <a href="references.html" class="w3-bar-item w3-button">References</a>
+            <a href="#" class="w3-bar-item w3-button">Footer</a>
+        </div> 
+        <h1>Theoropoda</h1>
+    </header>
+    <!-- Navigation bar at the top that will have the other two families (will be done by elena)-->
+    <nav>
+        <ul class="tabs">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="ornithischia.html">Ornithischia</a></li>
+            <li><a href="sauropod.html">Sauropods</a></li>
+            <li class="active"><a href="javascript:void(0)">Theoropoda</a></li>
+        </ul>
+    </nav>
+        <!-- The sidebar with contacts, about us, and references (done by Vince)-->
+
+    <!-- List of all the dinosaur names within this family (done by Ari)-->
+    <section>
+        <!-- Row 1 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="trex">Tyrannosaurus rex</div>
+                <img src="../photos/Therapods\Trex1.PNG" alt="T-Rex" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="deinonychus">Deinonychus</div>
+                <img src="../photos/Therapods\Deinonychus1.png" alt="Deinonychus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 2 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="allosaurus">Allosaurus Anax</div>
+                <img src="../photos/Therapods\Allosaurus1.PNG" alt="Allosaurus Anax" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="spinosaurus">Spinosaurus Aegypticus</div>
+                <img src="../photos/Therapods\Spinosaurus1.jpg" alt="Spinosaurus Aegypticus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 3 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="therizinosaurus">Therizinosaurus</div>
+                <img src="../photos/Therapods\Therizinosaurus1.jpeg" alt="Therizinosaurus" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="deinocheirus">Deinocheirus</div>
+                <img src="../photos/Therapods\Deinocheirus1.PNG" alt="Deinocheirus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 4 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="giganotosaurus">Giganotosaurus</div>
+                <img src="../photos/Therapods\Giganotosaurus1.PNG" alt="Giganotosaurus" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="maip">Maip Macrothorax</div>
+                <img src="../photos/Therapods\MaipMacrothorax1.PNG" alt="Maip Macrothorax" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Row 5 -->
+        <div class="dinoRow">
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="utahraptor">Utahraptor</div>
+                <img src="../photos/Therapods\Utahraptor1.jpg" alt="Utahraptor" class="dinoImage">
+            </div>
+            <div class="dinoBox">
+                <div class="dinoName" data-dino="carnotaurus">Carnotaurus</div>
+                <img src="../photos/Therapods\Carnotaurus1.png" alt="Carnotaurus" class="dinoImage">
+            </div>
+        </div>
+        
+        <!-- Dino Info Sections -->
+        <!-- T-Rex Info (already complete) -->
+        <div class="dinoInfo" id="trexInfo">
+            <h2>Tyrannosaurus rex</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Tyrannosaurus rex</li>
+                            <li><b>Diet:</b> Carnivore (apex predator)</li>
+                            <li><b>Length:</b> ~12-14 m</li>
+                            <li><b>Height:</b> ~4 m at hips</li>
+                            <li><b>Weight:</b> ~7-14 t</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Tyrannosauridae; T. rex</li>
+                            <li><b>Location / Formation:</b> Western North America</li>
+                            <li><b>Time:</b> Late Cretaceous (~68-66 Ma)</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Trex2.jpg" alt="T-Rex model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Tyrannosaurus rex is the archetypal large theropod and one of the most famous terrestrial predators in Earth's history. It represents the pinnacle of tyrannosaurid evolution, combining immense size, bone-crushing bite force, and keen senses to become an apex predator at the very end of the Cretaceous period.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first fragmentary remains were found in the late 19th century, but the iconic holotype was discovered in 1902 in Hell Creek, Montana, by Barnum Brown. It was named and described by Henry Fairfield Osborn in 1905. Over 50 individuals have since been discovered, including several nearly complete skeletons, making it one of the best-known theropods.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                T. rex was a derived member of the Tyrannosauridae, a group of large-bodied theropods that dominated Asia and North America in the Late Cretaceous. It evolved from smaller, earlier tyrannosauroids that possessed longer arms and three-fingered hands. Its direct ancestors likely migrated from Asia into Laramidia (western North America) where it became the terminal apex predator.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                T. rex had a massive skull (up to 1.5 m long) balanced by a heavy, muscular tail. Its jaw housed around 60 thick, conical, serrated teeth, some over 30 cm long, capable of crushing bone. It had powerfully built hind limbs but famously reduced forelimbs with only two functional fingers. Its binocular vision and highly developed sense of smell (indicated by large olfactory bulbs) were key predatory adaptations.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It lived in coastal floodplain and forest environments, likely preying on large herbivores like Triceratops and Edmontosaurus. Debate continues over whether it was purely an active predator, a scavenger, or both. Its ecological role was that of an undisputed apex predator, possibly facing intraspecific combat, as evidenced by skull and facial bite marks on other T. rex individuals.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Tyrannosaurus rex is the ultimate symbol of predatory dinosaur power in popular culture. Scientifically, it is a model organism for studying theropod biomechanics, bite force, growth rates, and even potential pathologies. Its remains are central to understanding the final chapter of dinosaur-dominated ecosystems before the Cretaceous-Paleogene extinction event.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Deinonychus Info (already complete) -->
+        <div class="dinoInfo" id="deinonychusInfo">
+            <h2>Deinonychus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Deinonychus antirrhopus</li>
+                            <li><b>Diet:</b> Carnivore</li>
+                            <li><b>Length:</b> ~3-3.5 m</li>
+                            <li><b>Height:</b> ~0.9 m at hip</li>
+                            <li><b>Weight:</b> ~70-100 kg</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Dromaeosauridae; Deinonychus</li>
+                            <li><b>Location / Formation:</b> USA (Cloverly Formation)</li>
+                            <li><b>Time:</b> Early Cretaceous (~115-108 Ma)</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Deinonychus2.PNG" alt="Deinonychus model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Deinonychus was a mid-sized, agile, and highly specialized dromaeosaurid ("raptor") dinosaur. Its discovery in the 1960s fundamentally changed scientific and public perceptions of dinosaurs, portraying them as active, dynamic, and potentially warm-blooded animals, sparking the "Dinosaur Renaissance."
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first remains were excavated in Montana by paleontologist John Ostrom and his team in 1964. Ostrom's comprehensive 1969 description was revolutionary, focusing on the animal's bird-like features, upright posture, and the clear anatomical evidence for an active lifestyle. Its name, meaning "terrible claw," refers to the enlarged sickle claw on its foot.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Deinonychus is a key North American genus within the Dromaeosauridae, a clade of bird-like paravian theropods closely related to early avialans (birds). It displays advanced dromaeosaurid traits, including the iconic pedal sickle claw, a stiffened tail for balance, and long, grasping forelimbs, representing a highly successful predatory design.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                This theropod had a light, agile build with long hind limbs built for speed and leaping. Its skull was equipped with numerous recurved, serrated teeth. The arms were long with three-clawed, grasping hands. The hallmark feature was the enlarged, retractable sickle-shaped claw on the second toe of each foot, used as a weapon. Its tail was stiffened by elongated bony processes (prezygapophyses), making it a rigid counterbalance.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Deinonychus inhabited floodplain and forest environments, preying on contemporary dinosaurs like the iguanodont Tenontosaurus. Multiple Deinonychus specimens are often found associated with single Tenontosaurus skeletons, providing strong circumstantial evidence for cooperative pack hunting, allowing them to tackle prey much larger than themselves.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Deinonychus is arguably one of the most important dinosaurs in the history of paleontology. Ostrom's work on it directly challenged the outdated view of dinosaurs as sluggish, cold-blooded reptiles and provided pivotal anatomical evidence supporting the dinosaurian ancestry of birds. Its image as an intelligent, fast, and social predator directly inspired the portrayal of the Velociraptors in the "Jurassic Park" franchise.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Allosaurus Info -->
+        <div class="dinoInfo" id="allosaurusInfo">
+            <h2>Allosaurus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Allosaurus anax</li>
+                            <li><b>Diet:</b> Carnivore</li>
+                            <li><b>Length:</b> ~8.5-9.5 m (28-31 ft)</li>
+                            <li><b>Height:</b> ~2.5 m at hip (8 ft)</li>
+                            <li><b>Weight:</b> ~1,500-4,000 kg (1.6-4 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Allosauridae; Allosaurus</li>
+                            <li><b>Location / Formation:</b> USA (Morrison Formation)</li>
+                            <li><b>Time:</b> Late Jurassic (Kimmeridgian-Tithonian), ~155-150 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Allosaurus2.jpg" alt="Allosaurus model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Allosaurus was the dominant large predator of the Late Jurassic Morrison Formation ecosystem. As a successful and widespread theropod, it is often considered the "lion of the Jurassic," filling the apex predator niche before the rise of the giant tyrannosaurids in the Cretaceous.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first remains were described by Othniel Charles Marsh in 1877. Its fossils are incredibly common in the Cleveland-Lloyd Dinosaur Quarry in Utah, which has yielded over 46 individuals, providing a wealth of information on its anatomy, growth, and pathology.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Allosaurus is the type genus of the Allosauroidea, a major branch of theropods that were globally distributed and ecologically dominant during the Jurassic and Early Cretaceous. It represents a more primitive and generalized body plan compared to the later, more specialized giant theropods like Tyrannosaurus.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Allosaurus had a large skull equipped with dozens of sharp, serrated teeth. It possessed a pair of distinctive bony crests above and in front of the eyes, likely used for display. Its arms were powerful and ended in three large, clawed fingers. It was bipedal, with strong hind limbs and a massive tail for balance. Compared to later theropods, its skull was lighter and its bite force was weaker, suggesting it used its head like a hatchet, delivering slashing wounds with its upper jaw.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                As the apex predator of the Morrison floodplains and savannas, Allosaurus likely preyed upon a variety of contemporaneous herbivores, including stegosaurs like Stegosaurus and young, sick, or vulnerable sauropods like Diplodocus and Apatosaurus. Evidence of bites on Stegosaurus plates and healed Allosaurus injuries suggest active predator-prey interactions. It may have been semi-social, hunting in loose groups.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Allosaurus is one of the first giant theropods to capture the public imagination and remains a quintessential Jurassic predator. It is one of the most extensively studied theropods due to the sheer volume of fossil material, making it a model for understanding theropod growth, behavior, biomechanics, and paleopathology. Its success highlights a different, earlier evolutionary strategy for large-bodied predation.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Spinosaurus Info -->
+        <div class="dinoInfo" id="spinosaurusInfo">
+            <h2>Spinosaurus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Spinosaurus aegyptiacus</li>
+                            <li><b>Diet:</b> Piscivore/Carnivore</li>
+                            <li><b>Length:</b> ~14-15 m (46-50 ft)</li>
+                            <li><b>Height:</b> ~3.5-4 m at hip (11.5-13 ft)</li>
+                            <li><b>Weight:</b> ~6,500-9,500 kg (7-8 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Spinosauridae; Spinosaurus</li>
+                            <li><b>Location / Formation:</b> Egypt, Morocco (Bahariya, Kem Kem Beds)</li>
+                            <li><b>Time:</b> Late Cretaceous (Cenomanian), ~99-93.5 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Spinosaurus2.PNG" alt="Spinosaurus model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Spinosaurus is the longest known terrestrial predator and one of the most unique theropods, adapted for a semi-aquatic lifestyle in river systems. Its distinctive sail and crocodile-like skull mark it as a highly specialized piscivore that occupied an ecological niche unlike any other large theropod.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The original fossils were discovered in Egypt by Ernst Stromer in 1912 and described in 1915. These specimens were tragically destroyed in a WWII bombing raid in 1944. New discoveries in Morocco since the 1990s, including a nearly complete tail described in 2020, have revolutionized our understanding of its aquatic adaptations.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Spinosaurus is the namesake of the Spinosauridae, a family of theropods characterized by elongated, crocodilian-like jaws and conical teeth. This family evolved in the Early Cretaceous and achieved a nearly global distribution. Spinosaurus represents the largest and most aquatic extreme of this lineage, having diverged dramatically from the body plans of other giant predators like Tyrannosaurus and Giganotosaurus.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Spinosaurus is defined by several unique features: an elongated skull with interlocking conical teeth for grasping slippery prey; tall neural spines on its vertebrae forming a prominent "sail" or hump, possibly for display or fat storage; dense bones for buoyancy control; relatively short hind limbs; and a broad, paddle-like tail for propulsion in water. Its forelimbs were robust, with large claws, possibly for hooking fish or walking on muddy banks.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Spinosaurus was a semi-aquatic predator inhabiting vast river systems and mangroves in North Africa. Its diet consisted primarily of large fish like the giant coelacanth Mawsonia and sawfish Onchopristis, but it likely also took small dinosaurs and pterosaurs. It lived alongside other large predators like Carcharodontosaurus but avoided direct competition by specializing in aquatic prey.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Spinosaurus has undergone a complete image overhaul in modern science, transforming from a mysterious, sail-backed curiosity into the first dinosaur conclusively shown to have been adapted for an aquatic lifestyle. It challenges the traditional view of large theropods as purely terrestrial predators and demonstrates the extreme ecological diversity dinosaurs achieved. Its recent discoveries are a landmark in paleontology.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Therizinosaurus Info -->
+        <div class="dinoInfo" id="therizinosaurusInfo">
+            <h2>Therizinosaurus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Therizinosaurus cheloniformis</li>
+                            <li><b>Diet:</b> Herbivore</li>
+                            <li><b>Length:</b> ~9-10 m (30-33 ft)</li>
+                            <li><b>Height:</b> ~4.5-5 m at hip (15-16 ft)</li>
+                            <li><b>Weight:</b> ~4,000-7,000 kg (4.4-7.5 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Therizinosauridae; Therizinosaurus</li>
+                            <li><b>Location / Formation:</b> Mongolia (Nemegt Formation)</li>
+                            <li><b>Time:</b> Late Cretaceous (Maastrichtian), ~72-66 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Therizinosaurus2.PNG" alt="Therizinosaurus model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Therizinosaurus is one of the most bizarre and enigmatic dinosaurs, a giant theropod that evolved to become a slow-moving, long-necked herbivore. It is famed for possessing the longest claws of any known animal, reaching over 1 meter in length, which were used not for hunting but for browsing and likely defense.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first fossils—giant, scythe-like claws—were discovered in the 1940s in the Nemegt Formation of Mongolia by a Soviet-Mongolian expedition. Initially, the claws were mistakenly thought to belong to a giant turtle-like reptile (hence the species name cheloniformis, "turtle-formed"). Its true identity as a dinosaur wasn't established until more complete relatives were found decades later.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Therizinosaurus is the largest known member of the Therizinosauria, a group within the coelurosaurian theropods, the same lineage that includes tyrannosaurs and birds. Therizinosaurs underwent a dramatic evolutionary shift from small, carnivorous ancestors to large, herbivorous forms with small heads, leaf-shaped teeth, and pot-bellied bodies—a classic example of extreme dietary and morphological adaptation.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Therizinosaurus had a small head with a beaked mouth and leaf-shaped teeth for shredding vegetation. Its most iconic features were the three gigantic, laterally compressed claws on each hand. It had an atypically wide, bulky torso to house a large gut for fermenting plants, a long neck for reaching foliage, and robust, elephantine hind legs. It was covered in primitive, hair-like feathers (protofeathers), like its smaller relatives.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                This giant lived in the humid, forested river valleys of the Nemegt ecosystem. It was a high browser, using its long neck and reach to pull branches towards its mouth, then stripping leaves with its beak. Its enormous claws were likely multi-purpose tools for pulling down branches, defending itself from large predators like Tarbosaurus, and possibly for display.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Therizinosaurus is the ultimate example of evolutionary surprise, showing that theropod dinosaurs were not confined to predatory niches. Its discovery helped redefine the ecological diversity of theropods. It remains a powerful symbol of dinosaurian weirdness and adaptation, showcasing how a lineage can completely reinvent its body plan and lifestyle over evolutionary time.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Deinocheirus Info -->
+        <div class="dinoInfo" id="deinocheirusInfo">
+            <h2>Deinocheirus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Deinocheirus mirificus</li>
+                            <li><b>Diet:</b> Omnivore</li>
+                            <li><b>Length:</b> ~11 m (36 ft)</li>
+                            <li><b>Height:</b> ~4.4 m at hip (14.5 ft)</li>
+                            <li><b>Weight:</b> ~6,300-6,500 kg (7 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Deinocheiridae; Deinocheirus</li>
+                            <li><b>Location / Formation:</b> Mongolia (Nemegt Formation)</li>
+                            <li><b>Time:</b> Late Cretaceous (Maastrichtian), ~71-69 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Deinocheirus2.jpg" alt="Deinocheirus model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Deinocheirus was one of the most puzzling dinosaurs for nearly 50 years, known only from a pair of immense, 2.4-meter-long arms. The discovery of complete specimens in the 21st century revealed it to be a colossal, hump-backed, beaked omnivore with a duck-like bill, solving one of paleontology's greatest mysteries.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The iconic arms were discovered in 1965 in the Gobi Desert by a Polish-Mongolian expedition, described by Halszka Osmólska and Ewa Roniewicz in 1970. For decades, it was an enigmatic giant. The mystery was finally solved in 2014 with the description of two nearly complete specimens (found in 2006 and 2009) that had been poached and later repatriated, allowing for a full reconstruction.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Deinocheirus is a highly derived and gigantic member of the Ornithomimosauria ("ostrich-mimic dinosaurs"), a group of typically light, fast, beaked theropods. It represents a dramatic departure from the standard ornithomimosaur body plan, evolving immense size, heavy build, and unique specializations like a pygostyle (tail fan) and sail-back, showing the group's unexpected ecological diversity.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                This dinosaur had a bizarre combination of features: a long, low skull with a broad, duck-like beak and no teeth; a deep, humped back supported by tall neural spines; a wide, heavy pelvis; and stout, pillarlike legs. Its most famous attribute was its enormous arms, ending in three blunt claws, likely used for digging and gathering. It had a pygostyle to support a fan of feathers at the tail tip, and its back was likely covered in filamentous feathers.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Deinocheirus inhabited a lush river delta environment. Its beak and gut contents suggest an omnivorous diet, including plants, fish, and small vertebrates. It likely waded in shallow water, using its beak to grub for soft vegetation and aquatic life, while its great size and powerful arms provided defense from the tyrannosaur Tarbosaurus. It filled a unique, mega-omnivore niche.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The saga of Deinocheirus is a modern paleontological detective story. Its full revelation is a triumph of scientific perseverance and international collaboration. It fundamentally altered our understanding of ornithomimosaur capabilities, proving they could achieve gigantic sizes and occupy highly specialized, non-cursorial niches. It stands as a testament to the unexpected and often bizarre realities of dinosaur evolution.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Giganotosaurus Info -->
+        <div class="dinoInfo" id="giganotosaurusInfo">
+            <h2>Giganotosaurus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Giganotosaurus carolinii</li>
+                            <li><b>Diet:</b> Carnivore</li>
+                            <li><b>Length:</b> ~12.5-13.5 m (41-44 ft)</li>
+                            <li><b>Height:</b> ~3.8-4 m at hip (12.5-13 ft)</li>
+                            <li><b>Weight:</b> ~6,000-8,000 kg (6.6-8.8 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Carcharodontosauridae; Giganotosaurus</li>
+                            <li><b>Location / Formation:</b> Argentina (Candeleros Formation)</li>
+                            <li><b>Time:</b> Late Cretaceous (Cenomanian), ~99.6-97 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Giganotosaurus2.jpg" alt="Giganotosaurus model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Giganotosaurus was a colossal predator from South America that rivaled or slightly exceeded Tyrannosaurus rex in length. It represents the peak of carcharodontosaurid evolution in Gondwana, a lineage of giant theropods characterized by shark-like teeth and powerful, slicing jaws, rather than the bone-crushing bite of tyrannosaurids.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Discovered in 1993 by amateur fossil hunter Rubén D. Carolini in Patagonia, Argentina. It was described in 1995 by paleontologists Rodolfo Coria and Leonardo Salgado. The holotype specimen is approximately 70% complete, including the skull, pelvis, leg bones, and most of the backbone, providing a comprehensive view of this giant.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Giganotosaurus is a member of the Carcharodontosauridae, a successful family of large-bodied theropods that were the dominant apex predators in Gondwana (and earlier in Laurasia) during the Early and Mid-Cretaceous. It evolved in the isolation of South America, which allowed for the evolution of titanosaurs and other giant herbivores, and in turn, their super-sized predators.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Giganotosaurus had a long, narrow skull (up to 1.8 meters) equipped with dozens of blade-like, serrated teeth designed for slicing through flesh. Its brain cavity suggests a slightly larger brain than earlier giant theropods like Carcharodontosaurus. It had powerful hind limbs and three-fingered hands. Compared to T. rex, its skull was more lightly built for delivering fast, slashing bites to bleed out prey, and its leg proportions suggest it was a capable long-distance runner.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It was the apex predator of the Candeleros Formation, a region of semi-arid plains with seasonal rivers. Its primary prey was almost certainly the gigantic titanosaur sauropods like Argentinosaurus, likely hunting young, old, or sick individuals. Evidence suggests it may have hunted in loose packs or family groups to bring down such enormous prey, a theory supported by multiple individuals found together.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Giganotosaurus cemented South America's reputation as a land of dinosaurian giants in the Cretaceous. It sparked widespread public fascination and debate about the "largest predator ever," shifting focus from North American T. rex to the equally impressive giants of Gondwana. Scientifically, it is a key genus for understanding carcharodontosaurid anatomy, ecology, and their role as the dominant predators before the rise of the tyrannosaurids in the north.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Maip Macrothorax Info -->
+        <div class="dinoInfo" id="maipInfo">
+            <h2>Maip Macrothorax</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Maip Macrothorax</li>
+                            <li><b>Diet:</b> Carnivore</li>
+                            <li><b>Length:</b> ~9-10 m (30-33 ft)</li>
+                            <li><b>Height:</b> ~3 m at hip (10 ft)</li>
+                            <li><b>Weight:</b> ~4,000-5,000 kg (4.4-5.5 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Megaraptora; Megaraptoridae; Maip</li>
+                            <li><b>Location / Formation:</b> Argentina (Chorrillo Formation)</li>
+                            <li><b>Time:</b> Late Cretaceous (Maastrichtian), ~71-68 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\MaipMacrothorax2.PNG" alt="Maip Macrothorax model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Maip macrothorax is a newly described giant megaraptorid theropod from the very end of the Age of Dinosaurs in Patagonia. It represents one of the last and largest of its kind, a formidable predator with a deeply pneumatized skeleton and enormous, sickle-shaped hand claws, filling the apex predator niche in southern South America just before the K-Pg extinction.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The fossils were discovered in 2019 in Santa Cruz Province, Argentina, by a team from the Museo Argentino de Ciencias Naturales. The holotype was described in detail in 2022. The genus name Maip references a malign shadow creature from Aónik'enk mythology, while the species name macrothorax refers to its exceptionally wide thoracic cavity.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Maip belongs to the Megaraptora, a distinctive group of theropods whose phylogenetic position is debated (often placed within either the Allosauroidea or the Coelurosauria). They are characterized by their large, hypertrophied claws on the first finger of the hand. Maip shows that megaraptorids survived as large apex predators in Gondwana until the very end of the Cretaceous, unlike in the northern continents where tyrannosaurids dominated.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Maip is known from vertebrae, ribs, and parts of the shoulder and hip. Its defining feature is an extremely pneumatized skeleton, with hollowed-out vertebrae and ribs filled with air sacs, making it a relatively lightweight but formidable giant. This adaptation is similar to that seen in birds and some other large theropods. It would have possessed the characteristic megaraptoran build: a long, low skull, long arms, and massive, scythe-like claws on its hands, which were its primary weapons.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                As the apex predator of the Chorrillo Formation, Maip lived in a temperate, forested environment near the Atlantic coast. It likely preyed on a variety of contemporary herbivores, including ornithopods, small titanosaurs, and possibly ankylosaurs. Its hunting style is theorized to have involved using its powerful arms and giant claws to grapple and inflict grievous wounds on prey, rather than relying solely on its bite.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The discovery of Maip is significant as it helps fill a critical gap in the fossil record of South American predators at the end of the Cretaceous. It confirms that megaraptorids, not abelisaurids or other groups, were the top predators in this region during the Maastrichtian. Its highly pneumatized skeleton provides new insights into the respiratory systems and evolution of large Gondwanan theropods just millions of years before the asteroid impact.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Utahraptor Info -->
+        <div class="dinoInfo" id="utahraptorInfo">
+            <h2>Utahraptor</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Utahraptor ostrommaysi</li>
+                            <li><b>Diet:</b> Carnivore (apex predator)</li>
+                            <li><b>Length:</b> ~5-6 m (16.5-20 ft)</li>
+                            <li><b>Height:</b> ~1.5-1.8 m at hip (5-6 ft)</li>
+                            <li><b>Weight:</b> ~300-500 kg (660-1100 lbs)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Theropoda; Dromaeosauridae; Utahraptorinae; Utahraptor</li>
+                            <li><b>Location / Formation:</b> USA (Yellow Cat Member, Cedar Mountain Formation)</li>
+                            <li><b>Time:</b> Early Cretaceous (Valanginian-Barremian), ~139-134 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Utahraptor2.jpg" alt="Utahraptor model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Utahraptor is the largest and most robust dromaeosaurid "raptor" ever discovered. It was a powerful, apex predator of its Early Cretaceous ecosystem, dwarfing its famous relative Velociraptor and representing the pinnacle of giant raptor evolution in North America. Its discovery confirmed that large, pack-hunting dromaeosaurs existed far earlier than previously thought.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                The first specimen, a single large sickle claw, was discovered in 1975. However, the genus was not formally named until 1993, following the discovery of much more extensive remains, including the holotype claw and additional bones, by paleontologist James Kirkland. It was named in honor of John Ostrom (for his work on Deinonychus) and Chris Mays of Dinamation International. A massive sandstone block, the "Utahraptor Megablock," containing multiple individuals of different ages, was discovered in 2001 and is still being prepared.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Utahraptor is the type genus for the Utahraptorinae, a subfamily of particularly large and heavily built dromaeosaurids. It represents an earlier, more robust evolutionary line than the smaller, more agile dromaeosaurines (like Velociraptor) that came later. Its existence in the Early Cretaceous shows that dromaeosaurids achieved large body sizes very early in their evolutionary history.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Utahraptor had a stocky, muscular build. Its skull was deep and powerful, equipped with recurved, serrated teeth. Its arms were long and ended in three sharply clawed fingers for grasping. Its most formidable weapons were the enormous, sickle-shaped "killing claws" on the second toe of each foot, which could reach over 22 cm in length. These claws were likely used to deliver deep, stabbing wounds to prey.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                This giant raptor was the top predator of the Yellow Cat Member's floodplain environment, preying on contemporary dinosaurs like the iguanodont Hippodraco and the sauropod Mierasaurus. The "Megablock" find, containing a potential predator trap scenario with multiple Utahraptor individuals of varying ages around a plant-eating dinosaur, provides compelling evidence for social behavior, possibly pack hunting, allowing them to take down very large prey.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Utahraptor revolutionized our understanding of dromaeosaurid size and early evolution. It validated speculation from earlier pop culture (like Jurassic Park) that giant raptors existed, though in a different time period. It remains the definitive example of a mega-raptor and a key genus for understanding the behavior, growth, and ecology of large, social predatory dinosaurs in the Early Cretaceous.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div>
+        
+        <!-- Carnotaurus Info -->
+        <div class="dinoInfo" id="carnotaurusInfo">
+            <h2>Carnotaurus</h2>
+            <div class="infoContent">
+                <div class="topSection">
+                    <div class="infoText">
+                        <ul>
+                            <li><b>Name:</b> Carnotaurus sastrei</li>
+                            <li><b>Diet:</b> Carnivore</li>
+                            <li><b>Length:</b> ~7.5-8 m (24.5-26 ft)</li>
+                            <li><b>Height:</b> ~2.5-3 m at hip (8-10 ft)</li>
+                            <li><b>Weight:</b> ~1,300-2,100 kg (1.4-2.3 short tons)</li>
+                            <li><b>Scientific Classification:</b> Dinosauria; Saurischia; Abelisauridae; Brachyrostra; Carnotaurus</li>
+                            <li><b>Location / Formation:</b> Argentina (La Colonia Formation)</li>
+                            <li><b>Time:</b> Late Cretaceous (Campanian-Maastrichtian), ~72-69 Ma</li>
+                        </ul>
+                    </div>
+                    <div class="infoImage">
+                        <img src="../photos/Therapods\Carnotaurus2.jpg" alt="Carnotaurus model" class="dinoImage2">
+                    </div>
+                </div>
+                
+                <div class="accordionContainer">
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Overview
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Carnotaurus is one of the most distinctive theropods, instantly recognizable by the pair of prominent, bull-like horns above its eyes and its extremely reduced, vestigial forelimbs. It represents a highly specialized branch of predatory dinosaurs, the abelisaurids, which thrived on the southern continents while tyrannosaurs dominated the north.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Discovery
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Discovered in 1984 by paleontologist José Bonaparte on an expedition in Chubut Province, Argentina. The single, exceptionally complete skeleton (including extensive skin impressions) was described in 1985. It is one of the best-understood abelisaurids. The name means "meat-eating bull," a reference to its distinctive horns.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Evolution
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Carnotaurus is a derived member of the Abelisauridae, a family of ceratosaurian theropods that were the dominant predators in Gondwana during the Late Cretaceous. Its evolution represents a path of extreme cranial ornamentation and forelimb reduction, parallel to but independent of the forelimb reduction seen in the northern tyrannosaurids.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Physical Description
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Carnotaurus had a deep, short skull equipped with relatively small, blade-like teeth. Its most famous features are the thick, bony horns over the eyes, likely used for intraspecific combat (head-pushing or shoving). Its forelimbs are the most reduced of any large theropod, with a short, four-fingered hand that was utterly vestigial and immobile. It had long, slender hind limbs built for speed, and its body was covered in a mosaic of large, conical scales interspersed with smaller ones, as revealed by exceptional skin impressions along its flanks and tail.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Ecology
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                It inhabited coastal plains and estuaries. Its build suggests it was a fast, cursorial predator that likely pursued medium-sized prey like ornithopods and small sauropods. The horns were almost certainly for combat with rivals, not for hunting. Its extremely weak bite force and slender skull suggest it may have used its head like a hatchet, slashing with its upper jaw while holding prey with its body weight.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordionItem">
+                        <div class="accordionHeader">
+                            Extinction Legacy
+                        </div>
+                        <div class="accordionContent">
+                            <div class="accordionText">
+                                Carnotaurus is the poster child for the bizarre and unique dinosaur fauna of Gondwana. Its exceptional fossil, complete with skin, provides an unparalleled look at the integument of a large theropod. It demonstrates a radically different predatory body plan from the more familiar Northern Hemisphere theropods, highlighting the evolutionary experimentation that occurred in isolated continents. Its iconic silhouette has made it a favorite in popular culture and a key subject in studies of theropod locomotion, combat, and evolution.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn">Back to List</button>
+        </div> 
+    </section>
+    <footer id="footer">
+        <p>Created by I2WT group 06, last update 20/1/26</p>
+        <p><b>DISCLAIMER:</b><br>
+            This site is purely for educational and recreational purposes only and any Information presented is not stated as fact and is subject to change.</p>
+    </footer>
+    <!-- JavaScript -->
+    <script>
+        const allDinoBoxes = document.querySelectorAll('.dinoBox');
+        const allDinoInfos = document.querySelectorAll('.dinoInfo');
+        const dinoSection = document.querySelector('section');
+        const footer = document.getElementById('footer');
+
+        function hideAllExceptInfo() {
+            const allSectionChildren = dinoSection.children;
+            for (let child of allSectionChildren) {
+                if (!child.classList.contains('dinoInfo')) {
+                    child.style.display = 'none';
+                }
+            }
+            if (footer) footer.style.display = 'none';
+        }
+        function showAllContent() {
+            const allSectionChildren = dinoSection.children;
+            for (let child of allSectionChildren) {
+                child.style.display = '';
+            }
+            if (footer) footer.style.display = '';
+            
+            allDinoInfos.forEach(info => {
+                info.style.display = 'none';
+            });
+            document.querySelectorAll('.accordionContent').forEach(content => {
+                content.classList.remove('accordionActive');
+            });
+            document.querySelectorAll('.accordionHeader').forEach(header => {
+                header.classList.remove('accordionActive');
+            });
+        }
+        function showDinoInfo(dinoId) {
+            hideAllExceptInfo();
+            const infoToShow = document.getElementById(dinoId + 'Info');
+            if (infoToShow) {
+                infoToShow.style.display = 'block';
+            }
+        }
+        allDinoBoxes.forEach(box => {
+            box.addEventListener('click', function() {
+                const dinoNameElement = this.querySelector('.dinoName');
+                const dinoType = dinoNameElement.getAttribute('data-dino');
+                showDinoInfo(dinoType);
+            });
+        });
+        const backButtons = document.querySelectorAll('.backBtn');
+        backButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                showAllContent();
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const accordionHeaders = document.querySelectorAll('.accordionHeader');
+            
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const isActive = this.classList.contains('accordionActive');
+                    if (isActive) {
+                        this.classList.remove('accordionActive');
+                        content.classList.remove('accordionActive');
+                    } else {
+                        this.classList.add('accordionActive');
+                        content.classList.add('accordionActive');
+                    }
+                });
+            });
+        });
+    </script>
+        <!--Script for the sidebar -->
+    <script>
+    function openRightMenu() {
+    document.getElementById("rightMenu").style.display = "block";
+    }
+
+    function closeRightMenu() {
+    document.getElementById("rightMenu").style.display = "none";
+    }
+    </script>
+</body>
+</html>

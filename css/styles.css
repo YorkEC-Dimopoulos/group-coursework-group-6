@@ -1,0 +1,387 @@
+body {
+    background-color: rgb(132 147 74);
+    color:rgb(45, 65, 11); 
+    text-shadow: 0cap;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    display: flex;
+    flex-direction: column;
+    min-height: 100hv;
+}
+
+p {
+    margin: 20px;
+}
+section {
+    flex-grow: 1;
+    margin: 5%;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: rgb(45, 65, 11); 
+    color:rgb(187, 207, 152); 
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 3px solid #698d61;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    bottom: 0;
+    box-shadow: 0 0 10px rgba(240, 245, 240, 0.7);
+    margin-top: auto;
+    padding: 20px;
+}
+
+footer p {
+        margin: 10px 0;
+        color: rgb(236, 236, 236);
+    }
+header {
+    background-color: rgb(45, 65, 11);
+    text-align: center;
+    border-bottom: 1px;
+}
+header h1 {
+    color: #ECECEC;
+}
+nav {
+    background-color: rgb(45, 65, 11);
+    overflow: hidden;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgb(187, 207, 152);
+    padding: 15px 17px;
+    display: flex;
+    float:left;
+    text-align: center;
+    font-size: 17px;
+}
+
+nav a.active {
+    
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(45, 65, 11);
+}
+nav ul {
+    list-style-type: none;
+}
+
+.tabs li { 
+    float: left; 
+    position: relative; 
+}
+.tabs a { 
+    float: left; 
+    padding: 10px 40px; 
+    text-decoration: none;
+    color: black;
+    background: #ddc385;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+        .tabs .active {
+            z-index: 3;
+        }
+        .tabs .active a { 
+            background: #84934A; 
+            color: black; 
+        }
+        .tabs li:before, .tabs li:after, 
+        .tabs li a:before, .tabs li a:after {
+            position: absolute;
+            bottom: 0;
+        }
+        .tabs li:last-child:after,   .tabs li:last-child a:after,
+        .tabs li:first-child:before, .tabs li:first-child a:before,
+        .tabs .active:after,   .tabs .active:before, 
+        .tabs .active a:after, .tabs .active a:before {
+            content: "";
+        }
+        .tabs .active:before, .tabs .active:after {
+        background: #84934A; 
+        
+            z-index: 1;
+        }
+        .tabs li:before, .tabs li:after {
+            background: #ddc385;
+            width: 10px;
+            height: 10px;
+        }
+        .tabs li:before {
+            left: -10px;      
+        }
+        .tabs li:after { 
+            right: -10px;
+        }
+        .tabs li a:after, .tabs li a:before {
+            width: 20px; 
+            height: 20px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius:    10px;
+            border-radius:         10px;
+            background: rgb(45, 65, 11);
+            z-index: 2;
+        }
+        .tabs .active a:after, .tabs .active a:before {
+            background: #ddc385;
+        }
+        .tabs li:first-child.active a:before,
+        .tabs li:last-child.active a:after {
+            background: rgb(45, 65, 11);
+        }
+        .tabs li a:before {
+            left: -20px;
+        }
+        .tabs li a:after {
+            right: -20px;
+        }
+        #top-arrow {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            border: 0px;
+            text-decoration: none;
+            padding: 10px;
+            margin: 3px;
+            font-size: 30px;
+            color: #222;
+        }
+
+/*Styling for the dinosaur containers*/
+.dinoRow {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 60px 0;
+        gap: 10px;
+        background-color: #698d61;
+        padding: 20px 0;
+        border-radius: 10px;
+    }
+    .dinoBox {
+        padding: 30px;
+        margin: 30px;
+        flex: 1;
+        width: 650px;
+        height: 450px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color:rgb(187, 207, 152);
+        box-shadow: rgb(20, 40, 32) 0px 20px 30px -10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .dinoBox:hover {
+        transform: translateY(-5px);
+        transform: scale(1.05);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+        rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .dinoImage {
+        width: 550px;
+        height: 320px;
+        object-fit: fill;
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+        border-style: inset;
+        display: block;
+        box-shadow: rgb(20, 40, 32) 0px 20px 30px -10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .dinoImage:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+        rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transform: scale(1.05);
+    }
+    .dinoName {
+        text-align: center;
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+    }
+    
+    /* Dino Info Page Styling */
+    .dinoInfo {
+        display: none;
+        min-height: 100vh;
+        padding: 40px;
+        margin: -8px;
+    }
+    
+    .dinoInfo h2 {
+        text-align: center;
+        font-size: 48px;
+        color: #2c3e50;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 4px solid #698d61;
+    }
+    
+    .infoContent {
+        display: flex;
+        flex-direction: column;
+        max-width: 1600px;
+        margin: 0 auto;
+        gap: 40px;
+    }
+    
+    .topSection {
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+    }
+    
+    .infoText {
+        flex: 1;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #2c3e50;
+    }
+    
+    .infoImage {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dinoImage2 {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        max-height: 600px;
+        object-fit: fill;
+        border: 0px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .dinoInfo ul {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 10px;
+        border: 2px solid #698d61;
+        margin-bottom: 40px;
+        list-style-type: none;
+    }
+    
+    .dinoInfo li {
+        margin-bottom: 15px;
+        padding: 8px 0;
+        border-bottom: 1px dashed #698d61;
+        font-size: 18px;
+    }
+    
+    .dinoInfo li:last-child {
+        border-bottom: none;
+    }
+    
+    .dinoInfo b {
+        font-weight: bold;
+    }
+    
+    /* Accordion Styling */
+    .accordionContainer {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .accordionItem {
+        margin-bottom: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 2px solid #698d61;
+    }
+    
+    .accordionHeader {
+        background-color: #698d61;
+        color: white;
+        padding: 20px 30px;
+        font-size: 22px;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .accordionHeader:hover {
+        background-color: #5a7a53;
+    }
+    
+    .accordionHeader::after {
+        content: '▼';
+        font-size: 16px;
+        transition: transform 0.5s ease;
+    }
+    
+    .accordionHeader.accordionActive::after {
+        content: '▲';
+        transform: rotate(180deg);
+    }
+    
+    .accordionContent {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.8s ease, padding 0.8s ease;
+    }
+    
+    .accordionContent.accordionActive {
+        padding: 30px 40px;
+        max-height: 1000px;
+    }
+    
+    .accordionText {
+        font-size: 20px;
+        line-height: 1.8;
+        color: #2c3e50;
+    }
+    
+    .accordionText br {
+        margin-bottom: 10px;
+    }
+    
+    .backBtn {
+        display: block;
+        margin: 40px auto;
+        padding: 15px 40px;
+        font-size: 20px;
+        font-family: monospace;
+        background-color: #698d61;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .backBtn:hover {
+        background-color: #5a7a53;
+        transform: scale(1.05);
+    }
